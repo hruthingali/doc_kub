@@ -18,7 +18,7 @@ spec:
         app: flimg
     spec:
       containers:
-      - image: hruthingali/doc_kub_flask
-        name: doc-kub-flask-965wg
+      - image: hruthingali/myimage
+        name: myimage
         resources: {}
 status: {}
