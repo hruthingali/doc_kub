@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: flimg
+  name: flimg
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flimg
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: flimg
+    spec:
+      containers:
+      - image: hruthingali/doc_kub_flask
+        name: doc-kub-flask-965wg
+        resources: {}
+status: {}
